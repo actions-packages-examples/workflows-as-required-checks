@@ -1,0 +1,11 @@
+name: beta
+
+on: push
+
+jobs:
+  job_one:
+    runs-on: ubuntu-latest
+    steps:
+    # Always succeeds
+    # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/development-tools-for-github-actions#setting-an-actions-status-using-exit-codes
+    - run: exit 0
