@@ -1,0 +1,7 @@
+name: delta
+on: push
+jobs:
+  delta-job:
+    runs-on: ubuntu-latest
+    steps:
+    - run: exit 0
