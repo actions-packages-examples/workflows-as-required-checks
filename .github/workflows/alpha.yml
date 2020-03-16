@@ -3,7 +3,7 @@ name: alpha
 on: push
 
 jobs:
-  job_one:
+  alpha_job:
     runs-on: ubuntu-latest
     steps:
     # Always succeeds

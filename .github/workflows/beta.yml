@@ -3,7 +3,7 @@ name: beta
 on: push
 
 jobs:
-  job_one:
+  beta_job:
     runs-on: ubuntu-latest
     steps:
     # Always succeeds
